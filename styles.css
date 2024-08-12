@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+body {
+    width: 100%;
+    height: 100%;
+    background: #e0d4fc;
+    position: absolute;
+}
+.login-container {
+    position: fixed;
+    width: 95%;
+    height: 80%;
+    margin-top: 70px;
+    background: #fff;
+    margin-left: 2.5%;
+}
+
+.login-content {
+    margin-top: 8%;
+    margin-left: 45%;
+}
+h1 {
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+h4 {
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.line-container {
+    display: flex;
+    align-items: center;
+}
+.line {
+    background: rgba(0,0,0,0.1);
+    height: 1px;
+    width: 43px;
+    margin-top: 10px;
+}
+.login-email {
+    font-weight: 100;
+    opacity: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.google-btn {
+    background-color: #fff;
+    margin-top: 15px;
+    height: 35px;
+    width: 50px;
+    padding: 0 107px;
+    border-radius: 5px;
+    opacity: 10%;
+}
+
+.google-label {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 55px;
+}
+.login-google {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.google-img {
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    margin-top: 12px;
+    margin-left: 30px;
+}
+.mail-box {
+    margin-top: 5px;
+    padding: 0 33px;
+    height: 35px;
+    border-radius: 5px;
+    border: 2px solid rgba(0,0,0,0.1);
+}
+.password-box {
+    margin-top: 5px;
+    padding: 0 33px;
+    height: 35px;
+    border-radius: 5px;
+    border: 2px solid rgba(0,0,0,0.1);
+}
+.remember {
+    display: flex;
+    align-items: baseline;
+}
+.login-btn {
+    background-color: #3e38f5;
+    height: 30px;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 0 94px;
+    margin-top: 10px;
+}
+.register {
+    margin-top: 10px;
+    display: flex;
+    font-size: 12px;
+    align-items: baseline;
+    margin-left: 20px;
+}
+a {
+    text-decoration: none;
+}
+.forgot {
+    font-size: 12px;
+    margin-left: 30px;
+}
+.check {
+    height: 11px;
+    width: 11px;
+}
+.remember-me {
+    margin-left: 5px;
+}
+.create-acc {
+    margin-left: 3px;
+    font-size: 11px;
+}
